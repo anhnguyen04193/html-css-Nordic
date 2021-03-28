@@ -1,0 +1,131 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 280px;
+  background-image: url(../images/page-top-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@-webkit-keyframes zoomin {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes zoomin {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.zoom-in {
+  -webkit-animation-name: zoomin;
+          animation-name: zoomin;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+h1 {
+  margin: 90px 0;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: deeppink;
+  color: white;
+  line-height: 1;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  -webkit-box-shadow: 0px 110px 100px -17px #111010;
+          box-shadow: 0px 110px 100px -17px #111010;
+}
+
+.about__main {
+  margin-top: 80px;
+}
+
+.about__text-title h2 {
+  color: #424040;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about__text-main {
+  margin-top: 30px;
+}
+
+.about__text-main p {
+  color: gray;
+  font-size: 15px;
+  line-height: 2.1;
+}
+
+.about__text-button {
+  margin-top: 50px;
+}
+
+.about__text-button > a {
+  padding: 15px 40px;
+  background-color: deeppink;
+  color: white;
+  text-decoration: none;
+}
+
+.about__img img {
+  max-width: 100%;
+}
+
+.fact__item {
+  text-align: center;
+}
+
+.fact__item-img {
+  max-width: 100%;
+}
+
+.fact__item h3 {
+  color: #333030ed;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.fact__item p {
+  font-size: 14px;
+}
+
+.fact-section {
+  margin-top: 50px;
+}
+
+.fact__background {
+  padding: 100px 0;
+  background-color: #eff3f7;
+}
+/*# sourceMappingURL=about.css.map */

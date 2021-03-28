@@ -1,0 +1,91 @@
+h2 {
+  color: #474747;
+}
+
+.form-group input[type="text"] {
+  display: block;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 2.1;
+  font-size: 14px;
+  background-color: #eff3f7;
+  border: none;
+  outline: none;
+}
+
+.form-group input[type="email"] {
+  display: block;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 2.1;
+  font-size: 14px;
+  background-color: #eff3f7;
+  border: none;
+  outline: none;
+}
+
+.form-group textarea {
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  line-height: 2.1;
+  font-size: 14px;
+  background-color: #eff3f7;
+  border: none;
+  outline: none;
+}
+
+.contact__form button {
+  margin-top: 20px;
+  margin-left: 15px;
+  border: none;
+  outline: none;
+}
+
+.contact__form button > a {
+  padding: 20px 50px;
+  background: deeppink;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.contact__info-table-list {
+  padding-left: 70px;
+}
+
+.contact__info-table-list h3 {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: deeppink;
+  border-bottom: 1px solid deeppink;
+}
+
+.contact__info-table-list p {
+  color: #474747;
+  line-height: 2.1;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact__info-icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding-left: 70px;
+}
+
+.contact__info-icon-list > li {
+  padding-right: 20px;
+}
+
+.contact__info-icon-list > li > a > i {
+  color: dimgray;
+}
+/*# sourceMappingURL=contact.css.map */
